@@ -1,3 +1,4 @@
 TouchGcal::Application.routes.draw do
-  root :to => 'dashboard#index'
+  resources :calendars
+  root :to => 'calendars#index'
 end

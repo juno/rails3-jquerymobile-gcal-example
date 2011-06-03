@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/wimm/GCal4Ruby.git
+  revision: 506a55a13f281147460f8d52a70bfcae32321b6a
+  specs:
+    gcal4ruby (0.5.8)
+      gdata4ruby (>= 0.1.5)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -32,6 +39,7 @@ GEM
     builder (2.1.2)
     erubis (2.6.6)
       abstract (>= 1.0.0)
+    gdata4ruby (0.1.5)
     i18n (0.5.0)
     jquery-rails (1.0.9)
       railties (~> 3.0)
@@ -72,6 +80,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  gcal4ruby!
   jquery-rails (= 1.0.9)
   rails (= 3.0.7)
   sqlite3

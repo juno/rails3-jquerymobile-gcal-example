@@ -1,0 +1,11 @@
+<div data-role="header">
+  <h1>Calendars</h1>
+</div>
+
+<div data-role="content">
+  <ul data-role="listview">
+    <% @calendars.each do |cal| %>
+      <li><%= link_to(cal.title, calendar_path(encode_id(cal)), 'data-rel' => 'dialog') %></li>
+    <% end %>
+  </ul>
+</div>
